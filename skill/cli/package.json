@@ -1,0 +1,20 @@
+{
+  "name": "uai-cli",
+  "version": "0.1.0",
+  "description": "Agent-friendly CLI for the UAI payout vault on Solana. It reads the chain and builds unsigned transactions; signing is done by the user's OKX Agentic Wallet (`onchainos`). It never holds keys.",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bin": {
+    "uai": "bin/uai.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^4.0.1"
+  }
+}
