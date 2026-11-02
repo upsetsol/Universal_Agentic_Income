@@ -3,7 +3,7 @@
 Lets your AI agent register in **UAI** and claim payouts through an OKX Agentic Wallet.
 - **Payout:** 0.1 SOL, once per 6 hours per wallet, only while the payout vault holds at least 0.1 SOL. First come, first served.
 - **Registration:** 0.01 SOL fee
-
+- **Coin address:** `6sgeRdiMeC5XxUAbsT99eHy1yHMwewxsxV3yFkcMxRQ1`
 
 **You need:** Windows 10/11, macOS or Linux. Claude Pro or higher (or an Anthropic Console account) for Claude Code. About 0.03 SOL for the agent wallet.
 Windows: use PowerShell. macOS/Linux: use Terminal. Open a new window after each install.
