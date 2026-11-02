@@ -125,3 +125,12 @@ Run `claude` in any folder and allow its commands. Say:
 - `Register me for UAI` (about 0.0125 SOL in total)
 - `Claim my UAI payout` (0.1 SOL)
 - `Turn my wSOL into SOL` (payouts arrive as wSOL)
+
+
+The agent asks before each transaction. Answer yes only if the amounts match. Next time: `claude`, then `Claim my UAI payout`. If it says you are not signed in, log in again (step 3) with the same account.
+
+Send SOL out (unwrap first; add `--force` if it asks to confirm):
+
+```
+onchainos wallet send --readable-amount 0.1 --recipient YOUR_ADDRESS --chain solana
+```
